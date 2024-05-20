@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Inclusion de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-size: cover; /* Couvrir l'arrière-plan entier */
+            background-position: center; /* Centrer l'arrière-plan */
+        }
+        
+        .container {
+            margin-top: 50px;
+            background-color: rgba(255, 255, 255, 0.7); /* Ajouter un fond blanc semi-transparent pour une meilleure lisibilité du contenu */
+            padding: 20px; /* Ajouter un remplissage au conteneur */
+        }
+
+        .icon {
+            margin-right: 10px; /* Espace entre l'icône et le texte */
+        }
+        
+        .btn-camera {
+            background-color: #2314a8;
+            border-color: #2314a8;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: background-color 0.3s;
+        }
+        
+        .btn-camera:hover {
+            background-color: #abac9a;
+            border-color: abac9a;
+        }
+        
+    </style>
+</head>
+<body class="bg-image d-flex justify-content-center align-items-center"
+style="
+  background-image: url('https://penntoday.upenn.edu/sites/default/files/2019-01/iStock-992623898.jpg');
+  height: 100vh;
+">
+    
+    <div class="container text-center">
+        <!-- Ajout de l'icône de livre avec un lien vers la page text -->
+        <h1><a href="/text" class="icon"><i class="fas fa-book icon"></i></a> Detection Brain Tumour</h1>
+        <a href="/upload" class="btn btn-camera btn-lg">Let us detect</a>
+    </div>
+    
+</body>
+</html>
